@@ -21,4 +21,5 @@
 ## 约定
 
 - 日常三件套：`git add .` → `git commit -m "完成 <内容简述>"` → `git push`
+- 提交说明只写一行，说清本次"做了什么"，50 字以内；细节放到正文中写
 - 不提交：`*.exe`、`build/`、`output/`、`.vscode/`（见 `.gitignore`）
