@@ -20,7 +20,7 @@ int main()
     system("shutdown -s -t 60");
 again:
     printf("请注意你的电脑将在60秒内关机,处非输入：我是猪，就取消关机\n");
-    scanf("%s", &input);
+    scanf("%s", input);
     // 两个字符串比较用strcmp如果相等用==0判断
     if (strcmp(input, "我是猪") == 0)
     {
