@@ -3,7 +3,7 @@ int main()
 {
     int arr[3][5] = {1, 2, 3, 4, 5, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7};
     int i = 0;
-    // ÊäÈë
+    // ÃŠÃ¤ÃˆÃ«
     for (i = 0; i < 3; i++)
     {
         int j = 0;
@@ -12,13 +12,13 @@ int main()
             scanf("%d", &arr[i][j]);
         }
     }
-    // Êä³ö
+    // ÃŠÃ¤Â³Ã¶
     for (i = 0; i < 3; i++)
     {
         int j = 0;
         for (j = 0; j < 5; j++)
         {
-            printf("%d", arr[i][j]);
+            printf("%d ", arr[i][j]);
         }
         printf("\n");
     }
