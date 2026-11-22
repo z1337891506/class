@@ -13,7 +13,7 @@ bin-release/
 *.ipa
 *.apk
 
-#过滤掉不想要文件和文件夹
+# 过滤掉不想要的文件和文件夹
 *.exe
 *.sln
 *.slnx
@@ -38,3 +38,6 @@ output/
 
 # 编辑器个人配置
 .vscode/
+
+# 竞赛插件（CPH）的本地缓存
+.cph/

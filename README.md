@@ -12,6 +12,14 @@
 | 02_chai_fen_shu_zi.c | while 循环：拆分整数各位并倒序输出 |
 | 03_jiu_jiu_cheng_fa_biao.c | for 双重循环：打印九九乘法表 |
 
+## games/ —— 小游戏合集
+
+每个游戏一个独立文件夹，详见 [games/README.md](games/README.md)。
+
+| 游戏 | 目录 | 简介 |
+|---|---|---|
+| 扫雷 | [games/saolei/](games/saolei/) | 9×9 控制台扫雷，10 颗雷 |
+
 ## problems/ —— 刷题专区
 
 - 每道题一个独立 `.c` 文件，命名：`三位题号_题目拼音或英文.c`，例如 `001_two_sum.c`
