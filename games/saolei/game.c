@@ -42,7 +42,7 @@ void InitBoard(char board[ROWS][COLS], int r, int c, char set)
 void SetMine(char board[ROWS][COLS], int r, int c) // r=9,c=9
 {
     int count = EASY_COUNT; // 雷的数量
-    while (count)   // 次数>=10
+    while (count)           // 次数>=10
     {
         int x = rand() % r + 1; // 这里rand%r+1的范围是1~9及在1~9行中布置雷
         int y = rand() % c + 1; // 这里rand%r+1的范围是1~9及在1~9列中布置雷
@@ -95,9 +95,9 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int r, int c) // 这
             printf("坐标非法,请重新输入\n");
         }
     }
-    if (win == r * c -EASY_COUNT)
+    if (win == r * c - EASY_COUNT)
     {
-    printf("排雷成功\n");
-    DisplayBoard(mine, ROW, COL);
-}
+        printf("排雷成功\n");
+        DisplayBoard(mine, ROW, COL);
+    }
 }
